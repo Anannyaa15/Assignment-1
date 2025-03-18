@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0a0a;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        nav {
+            background-color: #4CAF50;
+            width: 100%;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        /* Styling for the left side of the nav bar */
+        .nav-left {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .nav-left h1 {
+            color: white;
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-left p {
+            color: #e0f7e0;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        /* Styling for the right side of the nav bar (email) */
+        .nav-right {
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        /* Main content container */
+        .content {
+            margin-top: 80px;
+            width: 80%;
+            max-width: 800px;
+           
+            padding: 20px;
+            border-radius: 10px;
+           
+        } 
+        .table-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Space between tables */
+        }
+
+        /* Styling for tables */
+       
+        
+        table {
+            width: 30%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #3a2f2f;
+            box-shadow: 0 0 10px rgba(230, 227, 227, 0.833);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #121111;
+            font-size: 1.2rem;
+        }
+        th {
+            background-color: #050505;
+            color: white;
+        }
+        tr:hover {
+            background-color: #2bcf19;
+        }
+        a {
+            color: #ffffff; 
+            text-decoration: none; 
+            font-weight: bold;
+            margin-top: 20px;
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+        }
+       
+    </style>
+</head>
+<body>
+
+    <nav>
+        <!-- Left Side: Name and Registration Number -->
+        <div class="nav-left">
+            <h1>Anannya Bhati</h1>
+            <p>Registration Number: 22BCE10215</p>
+        </div>
+
+        <!-- Right Side: Email ID -->
+        <div class="nav-right">
+            Email:anannyabhati2022@vitbhopal.ac.in
+        </div>
+    </nav>
+
+
+   <div class="content">
+    <!-- Table with 18 rows and 2 columns -->
+    <div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">HTML TASKS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>TASK 1</td><td> <a href="index1.html">Click Here</a></td></tr>
+            <tr><td>TASK 2</td><td> <a href="index2.html">Click Here</a></td></tr>
+            <tr><td>TASK 3</td><td> <a href="index3.html">Click Here</a></td></tr>
+            <tr><td>TASK 4</td><td> <a href="index4.html">Click Here</a></td></tr>
+            <tr><td>TASK 5</td><td> <a href="index5.html">Click Here</a></td></tr>
+           
+           
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">CSS TASKS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>TASK 1</td><td> <a href="index6.html">Click Here</a></td></tr>
+            <tr><td>TASK 2</td><td> <a href="index7.html">Click Here</a></td></tr>
+            <tr><td>TASK 3</td><td> <a href="index8.html">Click Here</a></td></tr>
+            <tr><td>TASK 4</td><td> <a href="index9.html">Click Here</a></td></tr>
+            <tr><td>TASK 5</td><td> <a href="index10.html">Click Here</a></td></tr>
+            <tr><td>TASK 6</td><td> <a href="index11.html">Click Here</a></td></tr>
+            <tr><td>TASK 7</td><td> <a href="index12.html">Click Here</a></td></tr>
+        </tbody>
+    </table>
+
+    <!-- Table 3: BOOTSTRAP TASKS -->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">BOOTSTRAP TASKS</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr><td>TASK 1</td><td> <a href="index13.html">Click Here</a></td></tr>
+            <tr><td>TASK 2</td><td> <a href="index14.html">Click Here</a></td></tr>
+            <tr><td>TASK 3</td><td> <a href="index15.html">Click Here</a></td></tr>
+            <tr><td>TASK 4</td><td> <a href="index16.html">Click Here</a></td></tr>
+            <tr><td>TASK 5</td><td> <a href="index17.html">Click Here</a></td></tr>
+            <tr><td>TASK 6</td><td> <a href="index18.html">Click Here</a></td></tr>
+            
+        </tbody>
+    </table>
+   </div>
+
+   
+
+</body>
+</html>
